@@ -57,3 +57,20 @@ h1 {
 .active {
     border-bottom: 1px solid #00ff7f;
 }
+
+/* main image */
+
+#main-image-outer {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#main-image {
+    height: 700px;
+    width: 100%;
+    background: url(../images/antoine-j-A_0C42zmz1Q-unsplash.jpg);
+    background-size: 100% 650px;
+    background-repeat: no-repeat;
+}
