@@ -68,11 +68,29 @@ h1 {
 }
 
 #main-image {
-    height: 700px;
+    height: 650px;
     width: 100%;
     background: url(../images/antoine-j-A_0C42zmz1Q-unsplash.jpg);
     background-size: 100% 650px;
     background-repeat: no-repeat;
+}
+
+/* festival infomation section */
+
+#festival-info {
+    height: 650px;
+}
+
+#info-about {
+    float: left;
+    width: 33%;
+    padding-top: 25px;
+}
+
+.about {
+    text-align: center;
+    width: 80%;
+    margin-bottom: 50px;
 }
 
 
