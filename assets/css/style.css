@@ -81,7 +81,7 @@ h1 {
     height: 650px;
 }
 
-#info-about {
+#info-left {
     float: left;
     width: 33%;
     padding-top: 25px;
@@ -89,10 +89,19 @@ h1 {
 
 .about {
     text-align: center;
-    width: 80%;
     margin-bottom: 50px;
 }
 
+#info-right {
+    float: right;
+    width: 33%;
+    padding-top: 25px;
+    margin: 0 auto;
+}
+
+.date {
+    text-align: center;
+}
 
 /* footer */
 
