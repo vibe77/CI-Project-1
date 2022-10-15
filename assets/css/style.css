@@ -127,22 +127,13 @@ footer {
 
 /* Line Up */
 
-
-.line-up-image {
-    clear: left;
-    background-image: url(../images/brandon-erlinger-ford-wI2Hafqr_f4-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 1300px;
-}
-
 #line-up {
-    height: 1300px;
+    height: 1400px;
     padding-top: 10px;
     margin: 0% auto;
 }
 
-#line-up-friday > h2 {
+#line-up-friday {
     padding-top: 150px;
     text-align: left;
     margin-bottom: 20px;
@@ -150,54 +141,41 @@ footer {
     width: 50%;
 }
 
-#friday {
-    margin-left: 25%;
-}
-
-#line-up-saturday > h2 {
-    text-align: right;
-    margin-left: 71.5%;
+#line-up-saturday {
+    float: right;
+    margin-right: 22.5%;
     margin-top: 20px;
-    display: inline;
-    width: 50%;
 }
 
-#saturday {
-    margin-left: 75%;
 
 /* Media queries */
 
 /* For very large screen sizes from 1201px wide and up*/
 @media screen and (min-width: 1201px) {
+    
     #festival-info {
         width: 100%;
         height: 500px;
         margin: 0 auto;
     }
-    
+
 }
 
 /* For large screen sizes from 1200px wide and down*/
 @media screen and (max-width: 1200px) {
 
-    #info-left, #infor-right {
+    #info-left, #info-right {
         float: left;
         padding: 0;
     }
-}
-    
+
 /* For medium screen sizes from 900px wide and down*/
 @media screen and (max-width: 900px) {
     #festival-info {
         height: 1200px;
     }
 
-    #line-up {
-        height: 1200px;
-    }
-}
 
 /* For small screen sizes from 750px wide and down*/
 @media screen and (max-width: 750px) {
-    
 }
