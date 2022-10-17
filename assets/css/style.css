@@ -146,6 +146,69 @@ footer {
     height: 150px;
 }
 
+/* Sign Up form*/
+
+.form-section {
+    clear: left;
+    background: url(../images/brandon-erlinger-ford-wI2Hafqr_f4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.signup-form{
+    margin: 150px 10% 0 0;
+    color:#fff;
+    background-color: rgba(29, 28, 28, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 15%;
+    padding: 30px;
+}
+
+.signup-form h2 {
+    color:#ffffff;
+    margin-bottom: 20px;
+    background: transparent;
+}
+
+.form-section label {
+    background: transparent;
+}
+
+.form-section i {
+    background: transparent;
+}
+
+.text-input {
+    background: transparent;
+    color:#ffffff;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #000000;
+    border-radius:2px;
+}
+
+.text-input:hover {
+    border-color: #00ff7f;
+}
+
+.submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #00ff7f;
+    color: #ffffff;
+    display: block;
+}
+
+.submit-button:hover {
+    background-color: #ffffff;
+    color: #00ff7f;
+}
 
 /* Media queries */
 
