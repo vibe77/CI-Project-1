@@ -210,6 +210,12 @@ footer {
     color: #00ff7f;
 }
 
+/* Submitted Page */
+
+#submitted-confirmation {
+    text-align: center;
+}
+
 /* Media queries */
 
 /* For very large screen sizes from 1201px wide and up*/
