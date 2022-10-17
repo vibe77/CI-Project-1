@@ -5,7 +5,6 @@
     padding: 0%;
     margin: 0;
     border: none;
-    box-sizing: border-box;
 }
 
 body {
@@ -154,6 +153,9 @@ footer {
     background-size: cover;
     background-position: center;
     height: 800px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
 }
 
 .signup-form{
@@ -256,12 +258,15 @@ footer {
         padding: 0;
     }
 
+}
 /* For medium screen sizes from 900px wide and down*/
 @media screen and (max-width: 900px) {
     #festival-info {
         height: 1200px;
     }
 
+
+}
 
 /* For small screen sizes from 750px wide and down*/
 @media screen and (max-width: 750px) {
