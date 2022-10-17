@@ -127,24 +127,23 @@ footer {
 
 /* Line Up */
 
-#line-up {
-    height: 1400px;
-    padding-top: 10px;
-    margin: 0% auto;
+.line-up {
+    height: 800px;
+    margin: auto;
+    padding: 150px;
 }
 
-#line-up-friday {
-    padding-top: 150px;
-    text-align: left;
-    margin-bottom: 20px;
+.line-up-friday {
+    width: 33%;
     margin-left: 22.5%;
-    width: 50%;
+    height: 150px;
+    float: left;
 }
 
-#line-up-saturday {
-    float: right;
-    margin-right: 22.5%;
-    margin-top: 20px;
+.line-up-saturday {
+    margin-left: 72.5%;
+    width: 33%;
+    height: 150px;
 }
 
 
@@ -164,8 +163,27 @@ footer {
 /* For large screen sizes from 1200px wide and down*/
 @media screen and (max-width: 1200px) {
 
-    #info-left, #info-right {
+    #info-left  {
         float: left;
+        padding: 0;
+    }
+
+    #info-right {
+        float: right;
+        padding: 0;
+    }
+
+    .line-up {
+        height: 1200px;
+    }
+
+    .line-up-friday {
+        float: left;
+        padding: 0;
+        width: 33%;
+    }
+
+    .line-up-saturday {
         padding: 0;
     }
 
@@ -178,4 +196,12 @@ footer {
 
 /* For small screen sizes from 750px wide and down*/
 @media screen and (max-width: 750px) {
+    .line-up {
+        height: 1800px;
+    }
+
+    .line-up-friday {
+        float: left;
+        margin-left: 0%;
+    }
 }
