@@ -3,7 +3,15 @@ This is a website for a music festival set in Dublin, Ireland. This websites goa
 
 The goal of the website is to provide a responsive and easy to navigate website using HTML and CSS.
 
-# Features
+![UI Mockup](../CI-Project-1/assets/images/UI.png)
+
+## Features
+### Existing Features
+- __Navigation Bar__
+    
+    - On all the pages the navigation bar links to the Logo, Home Page, Line Up and Sign Up page and is the same on each page to allow for easy navigation.
+
+
 
 ## Content
 The icons used on the site were taken from [Font Awesome](https://fontawesome.com/)
