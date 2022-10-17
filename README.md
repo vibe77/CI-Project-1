@@ -10,13 +10,94 @@ The goal of the website is to provide a responsive and easy to navigate website 
 - __Navigation Bar__
     
     - On all the pages the navigation bar links to the Logo, Home Page, Line Up and Sign Up page and is the same on each page to allow for easy navigation.
+    - This will allow the user to easily navigate the web page on all devices.
 
+    ![Nav Bar](../CI-Project-1/assets/images/NavBar.png)
 
+- __Main Image__
 
-## Content
-The icons used on the site were taken from [Font Awesome](https://fontawesome.com/)
+    - The main image inclueds an image on a DJ playing in front of a crowd with strobe lights to show the user what the website main theme is.
 
+    ![Main Image](../CI-Project-1/assets/images/antoine-j-A_0C42zmz1Q-unsplash.jpg)
 
+- __About, Date, Time and Location__
+
+    - This section gives the user a brief history on the festival.
+    - This section also gives the user the date, time and loction of the festival so they know when it will be taking place.
+
+    ![About and Date](../CI-Project-1/assets/images/AboutAndDate.png)
+
+- __Footer__
+
+    - The footer includes links to the social media page for Permitted Produce. The links will open in a new tab for easy navigation for the user.
+    - The footer also encourages the user to keep up to stay connected on social meida.
+
+    ![Footer](../CI-Project-1/assets/images/Footer.png)
+
+- __Line Up__
+
+    - The line up page gives the user the information on who will be performing at the festival and the date and times they will be playing.
+
+    ![Line Up](../CI-Project-1/assets/images/Line-Up.png)
+
+- __Sign Up Page__
+
+    - The sign up page allows the user to sign up to get notified when tickets will be going on sale. The user can also specify what day or days they are intrested in getting tickets for. The user is asked to submit their full name and email address.
+
+    ![Sign Up](../CI-Project-1/assets/images/Sign-Up.png)
+
+# Testing
+## User Testing
+After deploying the site I checked to see if it worked in different browsers such as Firefox, Chrome and Microsoft Edge and it worked fine on them.
+
+- Firefox
+![Firefox](../CI-Project-1/assets/images/Firefox.png)
+
+- Chrome
+![Chrome](../CI-Project-1/assets/images/Chrome.png)
+
+- Microsoft Edge
+![Microsoft Edge](../CI-Project-1/assets/images/Mircosoft-Edge.png)
+
+## Website User Testing
+
+- A user would want to see when the festival is taking place and some infomation on it.
+
+![Festival Info](../CI-Project-1/assets/images/AboutAndDate.png)
+
+- A user would want to be able to follow the festival on social media.
+
+![Social Media](../CI-Project-1/assets/images/Footer.png)
+
+- A user would want to know who will be performing at the festival.
+
+![Line Up](../CI-Project-1/assets/images/Line-Up.png)
+
+- A user would want to be notified when tickets go on sale.
+
+![Tickets](../CI-Project-1/assets/images/Sign-Up.png)
+
+## Validator Testing
+
+- __HTML__
+    - No errors were found when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvibe77.github.io%2FCI-Project-1%2Findex.html)
+
+- __CSS__
+    - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvibe77.github.io%2FCI-Project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## Performance Testing
+![Performance](../CI-Project-1/assets/images/Lighthouse-Performance.png)
+
+## Bugs
+While testing on an mobile device the line up section would overlap with each other. Also on the sign up page the navigation bar would disapear.
+
+# Deployment
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In the GitHub repository, navigate to the Settings tab.
+    - From the source section drop-down menu, select the Master Branch, then click "Save".
+    - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+    A live link can be found here - https://vibe77.github.io/CI-Project-1/index.html
 
 # Credits
 ## Code
@@ -28,3 +109,6 @@ The sign up form was also taken from the Code Institute's Love Running project w
 
 ## Media
 The images used on the site were from [Unsplash.com](https://unsplash.com/) under thier license.
+
+## Content
+The icons used on the site were taken from [Font Awesome](https://fontawesome.com/)
