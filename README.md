@@ -3,7 +3,7 @@ This is a website for a music festival set in Dublin, Ireland. This websites goa
 
 The goal of the website is to provide a responsive and easy to navigate website using HTML and CSS.
 
-![UI Mockup](../CI-Project-1/assets/images/UI.png)
+![UI Mockup](../CI-Project-1/docs/UI.png)
 
 ## Features
 ### Existing Features
